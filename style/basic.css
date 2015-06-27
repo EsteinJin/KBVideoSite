@@ -1,0 +1,105 @@
+*{ padding:0px; margin:0px; font-size:12px; font-family:"Times New Roman", Times, serif;}
+body{ width:1200px; margin:0 auto; background:#f7f7f7;}
+ul li{ list-style-type:none;  }
+ul li a{font-size:14px; color:white;text-decoration:none; }
+a:hover{ text-decoration:underline;}
+h1{ font-size:12px; color:white; background:#da1b01}
+#myHeader{ height:100px; margin-top:5px; }
+#myHeader ul li{ font-size:12px; color:maroon;}
+#MyLeftHeader{ height:100px; width:390px; float:left;margin-left:7px; border:1px solid #589fed;}
+#MyMiddleHeader{ height:100px; width:390px; float:left; margin-left:7px;border:1px solid #589fed;}
+#MyRightHeader{ height:100px; width:390px; float:left; margin-left:7px;border:1px solid #589fed;}
+
+#MyNav{ height:20px; width:1197px; background:#5a9fec; margin-left:1px; margin-top:5px;}
+#MyNav ul { list-style: none; margin: 0px; padding: 0px; }
+#MyNav ul li{ float:left; margin-left:1px; color:white;}
+#MyNav ul li a { display:block; text-align:center; padding-left:5px;}
+#MyNav ul li a:hover {}
+#MyNav ul li span{ padding:1px;}
+
+#MyNav ul li ul { border:none; border-top:none; display:none; position:absolute; margin-top:4px; margin-left:-15px;}
+#MyNav ul li ul li { float:none; background:#666666;width:200px; margin:-4px;}
+#MyNav ul li ul li a { background:none; text-align:left;}
+#MyNav ul li ul li a:hover { background:black; color:#fff;}
+#MyNav ul li:hover ul { display:block;}
+
+	
+#MySearch{ float:left;}
+#mytxtSearch{ margin-left:3px; border:solid 1px #0000CC; height:20px; }
+#MySearchBtn{ BORDER-RIGHT: #7EBF4F 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7EBF4F 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#B3D997); BORDER-LEFT: #7EBF4F 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7EBF4F 1px solid;}
+#MyTag{ float: left; padding-left:10px; padding-top:5px; font-weight:bold;}
+#MyTag span {  background:#33FFCC; float:left;}
+#MyTag a{ float:left;height:5px; padding-left:10px; text-decoration:none; color:maroon;}
+#myIndexList{ clear:both; width:1190px; margin-top:5px; margin-left:6px; height:930px; }
+
+#myIndexList table{ width:90%; }
+
+#myIndexList table tr td{ text-align:center;}
+
+#myIndexLeft{ height:800px; float:left;  width:800px; clear:both;}
+#myIndexRight{ width:390px; height:800px; float:left; }
+#myIndexRight ul li a { color:blue;}
+.mySubIndexLeft{ width:390px; height:300px; float:left; margin-right:7px; border:1px solid #0000CC; margin-top:5px; }
+.mySubIndexLeft a{	color:maroon;text-decoration:none;}
+div.mySubIndexLeft ul li a:hover {color:#f60;text-decoration:underline;}
+div.mySubIndexLeft ul {list-style:none;padding-left:10px;padding-top:1px; }
+div.mySubIndexLeft ul li {height:20px;line-height:25px;font-size:12px; }
+div.mySubIndexLeft ul li a{font-size:12px; }
+div.mySubIndexLeft ul li  em { background:#336699; float:right;}
+div.mySubIndexLeft h1 em a { color:white; float:right;}
+
+div.mySubIndexLeft ul li em {float:right;font-style:normal;padding-right:5px;}
+.mySubIndexRight{width:390px; height:300px; float:left;border:1px solid #0000CC; margin-top:5px;}
+div.mySubIndexRight h1 em a { color:white; float:right;}
+
+
+#clistmyIndexList{ clear:both; width:1190px;  height:930px; margin-top:5px; margin-left:6px;    }
+#cListmyIndexLeft{border:1px solid #0000CC; clear:both; height:1300px; width:790px; float:left;}
+h2{font-size:12px; color:white; background:#3300CC}
+#cListmyIndexLeft ul li {border-bottom:1px dashed #ccc;height:30px;line-height:30px;}
+#cListmyIndexLeft ul li a {color:#666;text-decoration:none;}
+#cListmyIndexLeft ul li a:hover {color:#f60;text-decoration:underline;}
+#cListmyIndexLeft ul li em {float:right;font-style:normal;color:#999;}
+#clistmyIndexRight{width:389px; height:800px; float:left; margin-left:2px }
+.clistmySubIndexRight{border:1px solid #0000CC; margin-left:7px; margin-top:2px;width:390px; height:300px;}
+
+#detail {width:96%;margin:40px auto; border:1px solid #0000CC;  height:100%; overflow:scroll;}
+#detail h3 {font-size:20px;color:green;text-align:center;margin-bottom:10px;}
+#detail p.  {margin:20px;border:1px dashed #666;width:70%;height:20px;margin:0 auto;padding:0;line-height:150%;font-size:12px;padding:10px;color:#f60;}
+#detail p.d {font-size:12px;text-align:center;color:#666;}
+#detail p {line-height:180%;padding-top:10px;text-indent:20px;}
+#MyComment{width:96%;margin:40px auto; border: none;}
+#CommentInput{width:96%;margin:40px auto; border: none;}
+#FriendLink{ width:1188px; border:1px solid #0000CC; height:200px; clear:both; margin-left:6px; }
+#FriendLink ul li {margin-top:5px; margin-left:5px; float:left;}
+#FriendLink ul li a{ color:maroon; }
+
+
+#CopyRights{ width:1188px; border-top:1px solid #0000CC;   height:20px; clear:both; margin-left:6px; margin-top:5px; clear:both; }
+#SearchResult {clear:both;width:1200px; height:600px;margin:10px auto;border:1px solid #0000CC;}
+#SearchResult h1 {text-align:center;font-size:12px;color:white;}
+#SearchResult ul {list-style-type:none;}
+#SearchResult ul li {border-bottom:1px solid #ccc;padding:5px 0;}
+#SearchResult ul li a {color:#666;text-decoration:none;}
+#SearchResult ul li a:hover {color:#f60;text-decoration:underline;}
+#SearchResult ul li em {float:right;font-style:normal;color:#999; background:#00CC99}
+#SearchResult ul li dl {font-size:12px;color:#666;}
+#SearchResult ul li dd {padding:5px;text-indent:25px;}
+#SearchResult ul li dd.title {color:#333;font-size:14px;text-indent:0;}
+#SearchResult ul li dd.info {text-indent:25px;letter-spacing:1px;line-height:150%;}
+#SearchResult ul li dd.tag {color:maroon;}
+#cListmyIndexLeft ul li span.black {color:black;}
+#cListmyIndexLeft ul li span.green {color:green;}
+#cListmyIndexLeft ul li span.red {color:red;}
+#cListmyIndexLeft ul li span.bold {font-weight:bold;}
+
+div.mySubIndexRight dl.vote {padding:10px;}
+div.mySubIndexRight dl.vote dt {font-size:12px;font-weight:bold;padding:0 0 10px 0;}
+div.mySubIndexRight dl.vote dd {font-size:12px;padding:0 0 8px 10px;}
+.VoteBtn{BORDER-RIGHT: #7EBF4F 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7EBF4F 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#B3D997); BORDER-LEFT: #7EBF4F 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7EBF4F 1px solid;}
+div.mySubIndexRight ul li a { color:blue;}
+
+#votex {width:450px;margin-left:20px;margin-top:10px;}
+h1.votex {width:500px;font-size:20px;text-align:center;margin-top:10px;}
+#votex td,#votex th {padding:5px;}
+#votex td.name {text-align:center;}

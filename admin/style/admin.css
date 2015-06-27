@@ -1,0 +1,52 @@
+* {margin:0;padding:0;}
+body {font-size:12px;background:#fff;scrollbar-arrow-color: #f4ae21; scrollbar-face-color: #333;scrollbar-3dlight-color: #666;scrollbar-highlight-color: #666; scrollbar-shadow-color: #999; scrollbar-darkshadow-color: #666; scrollbar-track-color: #666; scrollbar-base-color:#f8f8f8;Cursor:url(mouse.cur); }
+form#login {width:250px;height:170px;border:1px solid #09f;margin:150px auto;}
+form#login h1 {height:25px;line-height:25px;background:#09f;font-size:12px;text-align:center;color:#fff;}
+form#login label {display:block;padding-top:12px;text-indent:10px;}
+form#login label input.text {border:1px dashed #333;width:160px;height:19px;background:#fff;}
+form#login label input.yzm {width:60px;}
+form#login input.submit {width:60px;height:19px;border:1px dashed #333;background:#fff;margin:10px 0 0 100px;cursor:pointer;}
+dl.sidebar {text-align:center;font-size:14px;margin:15px 0;}
+dl.sidebar dt {height:25px;line-height:25px;border:1px dashed #666;width:70%;margin:0 auto;}
+dl.sidebar dd {height:25px;line-height:25px;}
+p.main {font-size:14px;padding-top:150px;text-align:center;}
+#nav_show dl {width:300px;height:150px;float:left;margin:5px;overflow:scroll;}
+#nav_show dl dt {color:blue;font-weight:bold;}
+#nav_show dl dd {font-size:12px;color:green;padding-top:5px;}
+#nav_show dl dd  a{font-size:12px;color:green;padding-top:5px;}
+#nav_add {clear:both;}
+p.nav_h {margin:20px;}
+form#articleadd {font-size:14px;margin:20px;}
+form#articleadd dl dt {letter-spacing:2px;font-weight:bold;color:red;text-align:center;}
+form#articleadd dl dd {padding:5px 0;}
+form#articleadd dl dd input.text {background:#fff;width:214px;}
+form#articleadd dl dd textarea {background:#fff;width:214px;}
+form#articleadd dl dd select {background:#fff;width:214px;margin-left:7px;}
+form#articleadd dl dd span {color:red;}
+table#listcontent {width:80%;margin:20px auto;}
+table#listcontent tr {height:25px;line-height:25px;}
+table#listcontent tr td {padding:5px;}
+table#listcontent tr td.d {width:80px;text-align:center;}
+dl#voteadd {margin:20px;}
+table#votename {width:80%;margin:40px auto;background:#999;}
+table#votename th {height:30px;line-height:30px;background:#eee;}
+table#votename td {height:25px;line-height:25px;text-indent:10px;background:#fff;}
+table#votename td.id {text-align:center;}
+
+#nav_show dl {
+	width:170px;
+	height:150px;
+	float:left;
+	margin:5px;
+}
+#nav_show dl dt {
+	color:blue;
+	font-weight:bold;
+}
+#nav_show dl dd {
+	font-size:12px;
+	color:green;
+	padding-top:5px;
+}
+#nav_show ul li{ float:left; width:200px;}
+#nav_show ul li input{ background:#CC3333; }
